@@ -28,7 +28,7 @@ AppRouter = Backbone.Router.extend({
 		this.students.on('add', function(student) {
 			new AddView({model: student});
 		});
-		this.students.add();
+		this.students.add({});
 	},
 
 	showStudent: function(id) {
