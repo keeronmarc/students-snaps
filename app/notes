@@ -1,0 +1,8 @@
+1) HTML 
+- script tag, id
+	- div class 
+	- user.get.id, user.get.photo
+	- ahref refers to the router dilenated 'students/:id' : "students"
+	- Photo
+
+2) Router listening to the ahref
