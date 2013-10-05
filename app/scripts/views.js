@@ -6,7 +6,7 @@ AllStudentsView = Backbone.View.extend({
 	className:'table-unit',
 
 	initialize: function(){
-		console.log('all students view created!')
+		console.log('AllStudentsView initialized')
 		$('.container').append(this.el)
 		this.render()
 	},
@@ -25,7 +25,7 @@ StudentView = Backbone.View.extend({
 	className:'student-unit',
 
 	initialize: function(){
-		console.log('student view created!')
+		console.log('student view initialized')
 		$('.container').append(this.el)
 		this.render()
 	},
@@ -48,7 +48,7 @@ EditView = Backbone.View.extend({
 	},
 
 	initialize: function() {
-		console.log('sads')
+		console.log('edit initialized')
 		$('.container').append(this.el)
 		this.render()
 	},
