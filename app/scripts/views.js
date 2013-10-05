@@ -87,6 +87,7 @@ AddView = Backbone.View.extend({
 
 	initialize: function() {
 		console.log('add initialized')
+		$('.container').html('');
 		$('.container').append(this.el)
 		this.render()
 	},
