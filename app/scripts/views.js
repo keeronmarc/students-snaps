@@ -71,6 +71,10 @@ EditView = Backbone.View.extend({
 	}
 })
 
+//***************************************************************************
+				// ADD 
+//***************************************************************************
+
 AddView = Backbone.View.extend({
 
 	template: _.template( $('#add-template').text() ),
@@ -95,6 +99,10 @@ AddView = Backbone.View.extend({
 	saving: function() {
 		console.log("add here")
 		this.model.set('first', $('#first-input').val())
+		this.model.set('last', $('#last-input').val())
+		this.model.set('email', $('#email-input').val())
+		this.model.set('github', $('#github-input').val())
+		this.model.set('photo', $('#photo-input').val())
 		this.model.save()
 	}
 })
